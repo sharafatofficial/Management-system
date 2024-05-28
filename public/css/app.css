@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* *********************************** 
+        Login Page Styles
+*********************************** */
+
+.container {
+    width: 400px;
+    margin: auto;
+    min-height: 730px;
+    height: 100vh;
+    border: 2px solid green;
+    background-image: url(/assets/images/Asset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form{
+    padding-top: 60px;
+}
+@media screen and (min-width: 350px) {}
+
+.input_cover {
+    width: 92%;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color:  #3bad92;
+    color: white;
+    padding: 6px;
+    margin: 8px;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    margin-left: 4px;
+    background-color: #ffffff00;
+    /* color: #fff; */
+    border: 0;
+    padding: 4px 10px;
+    outline: none;
+    font-size: 18px;
+    width: 87%;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.login_btn {
+    width: 170px;
+    margin: 2px;
+    height: 42px;
+    margin-left: 105px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #095844;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.policy {
+    width: 290px;
+    margin: 2px;
+    height: 67px;
+    margin-left: 55px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #095844;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+/* *********************************** 
+        Login Page Styles
+*********************************** */
